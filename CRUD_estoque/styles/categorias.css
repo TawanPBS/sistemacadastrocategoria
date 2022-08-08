@@ -1,0 +1,87 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #3F4E4F;
+    margin: 0;
+}
+
+.nav{
+    text-align: center;
+    background-color:  #2C3639;
+    position: relative;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #DCD7C9;
+}
+
+.nav a:hover{
+    cursor: pointer;
+    transition: 1000ms;
+    color: #c5c1b4;
+    background-color:  #3b484d;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form{
+    text-align: left;
+}
+
+fieldset{
+    width: 270px;
+    height: 180px;
+    background-color: #A27B5C;
+    /*background-color: #a0a0ff;*/
+    font-weight: bold;
+    box-shadow: 2px 1px 5px;
+    margin-top: 180px;
+}
+
+fieldset legend{
+    background-color: #5252ff;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 180px;
+}
+
+
+.ipt{
+    border: 0;
+    border-radius: 5px;
+    background-color: #cfcfcf;
+    box-shadow: 0 1px #a0a0a0;
+    height: 30px;
+    width: 250px;
+    margin: 0;
+}
+
+.btn{
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    background-color: #2f78ff;
+    color: #f0f0f0;
+}
+
+.btn:hover{
+    background-color: #1064ff;
+    transition: 700ms;
+    cursor: pointer;
+    color: #dbdbdb;
+}
+
+.ipt:hover{
+    background-color: #afafaf;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.ipt:focus{
+    box-shadow: 1px 1px 0 1px;
+    outline: 0;
+}
